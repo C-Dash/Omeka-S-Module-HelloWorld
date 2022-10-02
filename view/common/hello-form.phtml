@@ -1,0 +1,13 @@
+
+<?php 
+      //The Laminas url property retrieves the base url for the current form object including the current site slug 
+      $helloAction = $this->url('site/helloworld', ['controller' => 'HelloController', 'action' => 'greet'], true);
+?>
+
+
+<!--div style="width: 500px; display: flex; flex-wrap: nowrap;" -->
+<form style="width: 500px; display: flex; flex-wrap: nowrap;" action="<?php echo $this->escapeHtml($helloAction); ?>"  id="hello-form">
+    <input type="text" name="name" value="<?php echo 'name'; ?>">
+    <button type="submit"><?php echo 'Greet'; ?></button>
+</form>
+</div>
