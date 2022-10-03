@@ -2,11 +2,7 @@
 
 A bare-bones Omeka-S module.  Intended as a tutorial and a starter template 
 for people who are new to PHP, Laminas and Omeka-S Development.  
-The author of this module is also a novice . We welcome comments posted in this module's 
-Issues page on github. 
 
-An overview and blog-style documentation may be found at the CDASH Project manual page, 
-[Omeka-S Modules](https://c-dash.github.io/Documentation/omeka_modules/index.htm) for user documentation.
 
 ## Installation
 
