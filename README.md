@@ -22,11 +22,11 @@ If the module is installed correctly, you will be presented with a page generate
 
 If this functionality was useful for your sites, you could add the hello-form element to any of your pages by adding it to pages that are part of your site's custom theme. 
 
-Otherwise, you can modify the module with your new controllers and actions. You probably want to change the name and associated references.
+Otherwise, you can modify the module with new controllers and actions. 
 
-Look around the files and explore the laminas documentation on Modules and the various laminas functions that are included in this module's files.  
+Explore the [Laminas Modules Tutorial](https://docs.laminas.dev/tutorials/getting-started/modules/) and explore the documentation for the various laminas functions that are included in this module's files.  
 
-The [Omeka-S developer documentation on Modules.](https://omeka.org/s/docs/developer/modules/) also provides many essentuial requirements for modules.
+The [Omeka-S developer documentation on Modules](https://omeka.org/s/docs/developer/modules/) provides many essential elements for modules.
 
 
 ## Copyright
