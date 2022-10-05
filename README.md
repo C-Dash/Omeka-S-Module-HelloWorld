@@ -13,7 +13,7 @@ See general end user documentation for [Installing a module](http://omeka.org/s/
 Once installed, this module extends all of your omeka-sites with URL routes as specified in `config/module.config.php`.  To see these in action, gpo to a site page and add "helloworld" to your site's URL string in your browser.  for example:
 
 ```
-http://[server]/omeka-s/s/[siteslug]/helloworld`
+http://[server]/omeka-s/s/[siteslug]/helloworld
 ```
 
 Where [server] is the web server for your Omeka-S installation and [siteslug] is the slug for your site.
