@@ -2,7 +2,13 @@
 declare(strict_types=1);
 
 // Declaring modules namespace here.  Allows us to automatically reference classes in the 
-// src folder of our module with path-names relative to the src folder. 
+// src folder of our module with path-names relative to the src folder.
+// IMPORTANT:  Concerning the directory structure of your module:  WIthin the view folder
+// you will have so-called action templates.  These must be in a subfolder that splits the 
+// that duplicates this namespace name, except splitting the CamelCase words with a hyphen 
+// using all lower case.  In this case, we have view/hello-world .   Can't find any mention of 
+// this in the Omeka-S developer docs!
+
 namespace HelloWorld;
 
 // Referencing these classes permits us to reference them by name without the full path. 
